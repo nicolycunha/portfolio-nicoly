@@ -1,0 +1,74 @@
+[  
+  {
+    "title": "DT Money",
+    "description": "Página de controle financeiro, com cálculo de entradas e saídas.",
+    "githubUrl": "https://github.com/nicolycunha/dt-money",
+    "image": "dt-money-preview.png",
+    "liveUrl": "https://dt-money-nicolycunha.netlify.app/",
+    "techs": ["React", "Typescript", "Radix-ui", "Styled-components", "Zod", "Firebase"],
+    "year": 2025
+  },
+  {
+    "title": "Devstore",
+    "description": "Projeto de e-commerce com listagem de produtos e adição ao carrinho.",
+    "githubUrl": "https://github.com/nicolycunha/devstore",
+    "image": "devstore-preview.png",
+    "liveUrl": "https://devstore-nicolycunha.netlify.app/",
+    "techs": [ "Next.js", "TypeScript", "TailwindCSS", "Cypress"],
+    "year": 2025
+  },
+  {
+    "title": "Ignite timer",
+    "description": "Cronômetro de acompanhamento de tarefas.",
+    "githubUrl": "https://github.com/nicolycunha/ignite-timer",
+    "image": "ignite-timer-preview.png",
+    "liveUrl": "https://ignite-timer-nicolycunha.netlify.app/",
+    "techs": [ "React", "TypeScript", "TailwindCSS", "date-fns", "Immer"],
+    "year": 2025
+  },
+  {
+    "title": "Hair Day",
+    "description": "Projeto de agendamento de atendimentos para cortes de cabelo de forma organizada.",
+    "githubUrl": "https://github.com/nicolycunha/hair-day",
+    "image": "hairday-preview.png",
+    "liveUrl": "https://hair-day-nicolycunha.netlify.app/",
+    "techs": ["HTML", "CSS", "JS", "JSON-Server", "Dayjs"],
+    "year": 2024
+  },
+  {
+    "title": "Refund",
+    "description": "Landing page de solicitações de reembolsos.",
+    "githubUrl": "https://github.com/nicolycunha/refund",
+    "image": "refound-preview.png",
+    "liveUrl": "https://nicolycunha.github.io/refund/",
+    "techs": ["HTML", "JavaScript", "CSS"],
+    "year": 2024
+  },
+  {
+    "title": "Convert",
+    "description": "Landing page de conversão de real brasileiro para outras moedas.",
+    "githubUrl": "https://github.com/nicolycunha/convert",
+    "image": "convert-preview.png",
+    "liveUrl": "https://nicolycunha.github.io/convert/",
+    "techs": ["HTML", "JavaScript", "CSS"],
+    "year": 2024
+  },
+  {
+    "title": "Snitap patins",
+    "description": "Landing page de loja de patins com foco em animações.",
+    "githubUrl": "https://github.com/nicolycunha/snipat-patins",
+    "image": "snitap-patins-preview.png",
+    "liveUrl": "https://nicolycunha.github.io/snipat-patins/",
+    "techs": ["HTML", "CSS"],
+    "year": 2024
+  },
+  {
+    "title": "Glass Effect",
+    "description": "Tela de login estática para treinar estilização com Glassmorphism.",
+    "githubUrl": "https://github.com/nicolycunha/glass-effect",
+    "image": "glass-effect-preview.png",
+    "liveUrl": "https://glass-effect-nicolycunha.netlify.app/",
+    "techs": ["Vue.js", "Typescript", "CSS"],
+    "year": 2024
+  }
+]
