@@ -21,11 +21,12 @@ export function ProjectCard({
   liveUrl
 }: ProjectCardProps) {
   function getImageUrl(fileName: string) {
-    return new URL(`/src/assets/images/${fileName}`, import.meta.url).href
+    return new URL(`/src/assets/images/preview/${fileName}`, import.meta.url)
+      .href
   }
 
   return (
-    <div className="flex flex-col rounded-xl shadow-lg bg-accent p-6 space-y-4 min-h-[500px] opacity-90 hover:opacity-100 hover:scale-101 transition duration-300 ease-in-out">
+    <div className="flex flex-col rounded-xl shadow-lg bg-accent p-6 space-y-4 min-h-[500px] md:min-h-[650px] lg:min-h-[550px] xl:min-h-[500px] opacity-90 hover:opacity-100 hover:scale-101 transition duration-300 ease-in-out">
       <img
         onClick={() => window.open(liveUrl, '_blank')}
         src={getImageUrl(image)}

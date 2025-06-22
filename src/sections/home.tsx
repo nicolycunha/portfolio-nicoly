@@ -1,11 +1,11 @@
 import { BubbleChatIcon, Download04Icon } from '@hugeicons/core-free-icons'
 import { HugeiconsIcon } from '@hugeicons/react'
 import meImage from '../assets/images/me.svg'
-import { Button } from './ui/button'
+import { Button } from '../components/ui/button'
 
 export function Home() {
   return (
-    <div className="max-w-screen-xl mx-auto px-4">
+    <div id="#about" className="max-w-screen-xl mx-auto px-4">
       <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] justify-between gap-10 py-10 md:py-20 px-8 lg:px-20">
         <div className="order-2 md:order-1 flex flex-col items-center md:items-start lg:pt-20 gap-8">
           <h1 className="text-4xl md:text-5xl">

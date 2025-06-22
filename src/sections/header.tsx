@@ -1,4 +1,4 @@
-import { ThemeToggle } from './theme/theme-toggle'
+import { ThemeToggle } from '../components/theme/theme-toggle'
 
 export function Header() {
   return (
@@ -11,7 +11,7 @@ export function Header() {
         <div className="hidden md:block">
           <ul className="flex justify-center items-center gap-15">
             <li className="hover:border-b-amber-900">
-              <a href="#" className="">
+              <a href="#about" className="">
                 Sobre
               </a>
             </li>
@@ -19,10 +19,10 @@ export function Header() {
               <a href="#projects">Projetos</a>
             </li>
             <li>
-              <a href="#">Experiências</a>
+              <a href="#techs">Tecnologias</a>
             </li>
             <li>
-              <a href="#">Contato</a>
+              <a href="#contact">Contato</a>
             </li>
           </ul>
         </div>

@@ -1,7 +1,10 @@
-import { Header } from './components/header'
-import { Home } from './components/home'
-import { Projects } from './components/projects'
+import { Header } from './sections/header'
+import { Home } from './sections/home'
+import { Projects } from './sections/projects'
+import { Technologies } from './sections/techs'
 import { ThemeProvider } from './components/theme/theme-provider'
+import { Contact } from './sections/contact'
+import { Footer } from './sections/footer'
 
 export function App() {
   return (
@@ -9,6 +12,9 @@ export function App() {
       <Header />
       <Home />
       <Projects />
+      <Technologies />
+      <Contact />
+      <Footer />
     </ThemeProvider>
   )
 }
