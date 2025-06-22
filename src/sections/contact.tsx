@@ -8,7 +8,7 @@ export function Contact() {
   return (
     <div id="contact" className="max-w-screen-xl mx-auto px-20 py-8">
       <h1 className="text-3xl text-center pb-15">Contato</h1>
-      <div className="flex items-center justify-between text-primary dark:text-foreground">
+      <div className="flex flex-col gap-10 lg:flex-row items-center  justify-between text-primary dark:text-foreground">
         <ContactCard
           name="E-mail"
           icon={<HugeiconsIcon icon={Mail02Icon} size={36} />}
