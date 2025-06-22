@@ -14,7 +14,7 @@ export function Projects() {
       <h1 className="text-3xl text-center pb-10">Projetos</h1>
       <Carousel
         opts={{ align: 'start', loop: true }}
-        className="w-full max-w-xs md:max-w-xl lg:max-w-3xl xl:max-w-5xl mx-auto"
+        className="w-full max-w-[300px] md:max-w-xl lg:max-w-3xl xl:max-w-5xl mx-auto"
       >
         <CarouselContent>
           {projects.map((project, index) => (
@@ -30,8 +30,6 @@ export function Projects() {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
-
-      {/* Aqui você pode inserir as bolinhas customizadas se quiser */}
     </div>
   )
 }

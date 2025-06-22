@@ -19,7 +19,7 @@ export function Home() {
             apaixonada por criar boas experiências ao usuário.
           </p>
 
-          <div className="flex sm:flex-row items-center  justify-center mt-6 gap-6">
+          <div className="flex flex-col md:flex-row items-center  justify-center mt-6 gap-6">
             <Button
               asChild
               size="lg"
